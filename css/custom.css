@@ -4,40 +4,42 @@ body {
 
 .landing h1 {
 	font-size: 45px;
-	padding-top: 70px;
+	padding-top: 60px;
 	font-weight: bold;
 	text-shadow: black 2px 2px 6px;
 }
 
+.navbar a.brand {
+padding: 5px 15px 5px;
+font-size: 24px;
+}
+
 .landing {
-	background-image:url('../img/city_night_2.png');
+	background-image:url('../img/city_night_3.png');
 	background-repeat:no-repeat;
 	background-position:center;
-	height:420px;
+	height:400px;
+}
+
+img.marketing_img {
+	display: block;
+	background-repeat:no-repeat;
+	margin-left: auto;   
+	margin-right: auto;
+}
+
+h1.marketing {
+	text-align:center;
 }
 
 .write {
-	background-image:url('../img/write.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	height:221px;
-}
-
-h1.write {
-
-	font-size: 100px;
+	padding-top: 20px;
 }
 
 .direct {
-	background-image:url('../img/direct.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	height:221px;
+	padding-top: 20px;
 }
 
 .repeat {
-	background-image:url('../img/repeat.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	height:221px;
+	padding-top: 20px;
 }
